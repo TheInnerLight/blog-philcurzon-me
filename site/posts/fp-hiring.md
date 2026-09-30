@@ -29,15 +29,13 @@ Before we can understand how technology impacts the hiring process, we need to u
 - Architecture interview
 - Behavioural interview
 
-Some organisations might roll multiple steps into one larger interview but, broadly, the outline is strikingly similar.
+Some organisations might roll multiple steps into one larger interview but, broadly, the outline is strikingly similar. However your organisation does it, the process is like a funnel: some candidates will be rejected at each step of the journey; some will reach the final stage and ultimately go to be hired.
 
 It will probably surprise no-one reading this to hear that, as an EM, the part that I care about in this process the most is the behavioural interview. If you want to build an organisation that is successful in the medium to long term, you need to bring in people who engage with each other in a way that is fundamentally constructive: helping one another to learn from their mistakes, sharing knowledge proactively so individuals don't become single points of failure, taking things off each other's plates at the right moment to prevent burnout, and broadly making work a friendly and inclusive environment for everyone.
 
 When I was at ITV, the hiring philosophy we used in engineering was based on the idea that we would look for engineers who are "smart and kind." I still love this as a summary of the hiring process because it encodes a lot of information into such a short and concise description.
 
-Behavioural interviews, despite their importance, are typically done as the final stage of the hiring process: the point where the final decision is taken. The process is typically described as a funnel: some candidates will be rejected at each step of the journey; some will reach the final stage and ultimately go to be hired.
-
-Since the behavioural interview is the point at which the hiring decision is made, the key question that influences the difficulty of hiring is: how many candidates reach the behavioural interview stage? If very few candidates reach that stage it's both very difficult to make hires and very difficult to be selective about behaviour.
+Behavioural interviews, despite their importance, are typically done as the final stage of the hiring process: the point where the final decision is taken. The consequence of this is that the key question that influences the difficulty of hiring is: how many candidates reach the behavioural interview stage? If very few candidates reach this stage it's both very difficult to make hires and very difficult to be selective about behaviour.
 
 To help visualise this, I'd like to encourage you to imagine two scenarios.
 
@@ -91,7 +89,7 @@ Okay, I admit: so far, I've cherry-picked some numbers to make a completely hypo
 
 Allow me to suggest one possibility: __what if niche functional language experience selects _for_ overall engineering experience?__
 
-Okay but why?
+Okay, but why?
 
 ### The horrors of the Haskell tutorial
 
@@ -107,7 +105,7 @@ Comparisons to three other programming languages. And those comparisons continue
 
 My point here is not to criticise the course - I actually think it's very well put together but the level of assumed experience for a beginner course is tremendous. The course is also constructed with its audience in mind: most people who take it have experience with at least one of those languages already, often several. It's also better than most other options for learning Haskell. One of the most recommended beginner-friendly Haskell books begins with an introduction to lambda-calculus. Again, an excellent book but hardly accessible to a wide audience.
 
-In the Scala world, "The Red Book" (Functional Programming in Scala) is one of the best and most influential programming books I've ever read but it's an excellent resource for established engineers wanting to learn something new, not learning material for a complete beginner.
+In the Scala world, "The Red Book" (Functional Programming in Scala) is one of the best and most influential programming books I've ever read but it's an excellent resource for established engineers wanting to learn something new, not learning material for a complete beginner. Broadly speaking, functional programming in Scala uses many of the same concepts as Haskell while offering a probably more familiar runtime environment (the JVM).
 
 ### Argh! That can't possibly be good!
 
@@ -125,7 +123,7 @@ In a world of mainstream technology, relationships with recruiters can be incred
 
 In a world of niche functional programming your organisation suddenly becomes _interesting_ to recruiters. All of the candidates that have that experience on their CV are coming straight to you and the small group of organisations doing something similar. This allows both parties to become much more predictable to one another: the recruiter knowing that if they find a candidate with the relevant experience, you are very likely to hire them and your organisation knowing that they are likely to bring you candidates of interest that will get to the end of your hiring process.
 
-## Framework and Library experience
+## Framework and Library Experience
 
 At the very start of this article, I spoke briefly about the plethora of different frameworks and libraries available within the world of functional programming. Surely this is still fatal and finding matching experience for your chosen technology is going to be impossible despite every other argument I've made?
 
