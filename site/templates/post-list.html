@@ -1,0 +1,26 @@
+{{#posts}}
+<article class="media">
+    {{#image}}
+    <figure class="media-left">
+        <p class="image is-128x128">
+          <img src="/images/{{.}}" />
+        </p>
+    </figure>
+    {{/image}}
+    <div class="media-content">
+        <div class="content">
+          <p>
+            <strong><a href="{{url}}">{{title}} </a></strong>
+            <div class="tags are-medium">
+                {{#tags}}
+                <span class="tag">{{.}}</span>
+                {{/tags}}
+                <div class="content" style="height:50px; overflow:hidden">
+                    {{description}}
+                </div>
+              </div>
+            <small>{{date}}</small>
+          </p>
+    </div>
+</article>
+{{/posts}}

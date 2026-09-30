@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head profile="http://www.w3.org/2005/10/profile">
+    <meta charset="UTF-8">
+    <meta name="description" content="{{siteTitle}}">
+    <meta name="author" content="{{siteAuthor}}">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <title>{{siteTitle}}</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css"/>
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+    <link rel="stylesheet" href="/css/style.css">
+    <meta property="og:title" content="Phil Curzon"/>
+    <meta property="og:type" content="website" />
+</head>
+<body>
+    {{>site/templates/header.html}}
+    <div class="section is-fullheight">
+        <div id="page" class="container ">
+            <div class="content">
+                <section class="table-of-contents">
+                    <h1>All Posts</h1>
+                    <div class="metadata">
+                    </div>
+                        {{>site/templates/post-list.html}}
+                </section>
+            </div>
+        </div>
+    </div>
+
+{{>site/templates/footer.html}}

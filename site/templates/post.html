@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head profile="http://www.w3.org/2005/10/profile">
+    <meta charset="UTF-8">
+    <meta name="description" content="{{siteTitle}}">
+    <meta name="author" content="{{author}}">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css"/>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/syntax.css">
+    <meta property="og:title" content="{{title}} - Phil Curzon"/>
+    <meta property="og:type" content="article" />
+    <meta property="og:description" content="{{description}}" />
+</head>
+<body>
+    {{>site/templates/header.html}}
+
+    <div class="section">
+        <div id="page" class="container is-fullheight">
+            <h1 class="title">
+                {{title}}
+            </h1>
+            <h2 class="subtitle">
+                by <span class="has-text-primary">{{author}}</span>
+            </h2>
+            
+            {{#image}}
+            <figure class="image mb-3 is-flex is-justify-content-center">
+                <img src="/images/{{.}}" style="width:500px"/>
+            </figure>
+            {{/image}}
+
+            <div class="content">
+                {{{content}}}
+            </div>
+
+            <script src="https://giscus.app/client.js"
+                    data-repo="TheInnerLight/blog.philcurzon.me"
+                    data-repo-id="R_kgDOUVTVJg"
+                    data-category="General"
+                    data-category-id="DIC_kwDOUVTVJs4DFUR1"
+                    data-mapping="title"
+                    data-strict="0"
+                    data-reactions-enabled="1"
+                    data-emit-metadata="0"
+                    data-input-position="bottom"
+                    data-theme="preferred_color_scheme"
+                    data-lang="en"
+                    crossorigin="anonymous"
+                    async>
+            </script>
+        </div>
+    </div>
+
+
+{{>site/templates/footer.html}}
