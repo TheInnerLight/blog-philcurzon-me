@@ -1,7 +1,7 @@
 ---
 title: "Myth-busting the impossibility of functional programming hiring"
 author: Phil Curzon
-date: Sep 30, 2026
+date: Oct 1, 2026
 tags: [Functional programming, Hiring, Haskell, Scala]
 description: A discussion of whether hiring for niche functional programming languages makes finding candidates a near impossibility or whether it might simplify the recruitment process.
 
@@ -153,7 +153,7 @@ Unsurprisingly, Juniors are able to progress and thrive astonishingly quickly in
 
 So, to finally answer the question posed at the start:
 
-No. Niche functional programming languages do not make hiring any more difficult and they often make it easier. The technical experience of candidates in this domain lead to a much narrower hiring funnel that is nicer to be involved in as both a candidate, interviewer and hiring manager. It allows your entire interview process to focus more on behaviours rather than assessing technical competence: finding out more about the individual you are interviewing and whether they would be a positive addition to your team.
+No. Niche functional programming languages do not make hiring any more difficult and they often make it easier. The technical experience of candidates in this domain lead to a much narrower hiring funnel that is nicer to be involved in as a candidate, interviewer and hiring manager. It allows your entire interview process to focus more on behaviours rather than assessing technical competence: finding out more about the individual you are interviewing and whether they would be a positive addition to your team.
 
 Every candidate who arrives in the world of a niche functional programming language has an interesting story to tell about the journey that led them there and that material is perfect for an interview setting: to understand the applicant and how they go about making proactive choices about the future of their career.
 
